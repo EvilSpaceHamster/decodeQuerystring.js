@@ -1,4 +1,4 @@
-function queryStringToObject(string) {
+function decodeQuerystring(string) {
     var result = {};
 	var kvPairs = string.split(/&/g);
 	for (i in kvPairs) {
